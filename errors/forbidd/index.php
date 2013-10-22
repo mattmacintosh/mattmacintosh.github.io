@@ -1,6 +1,6 @@
 <?php 
 
-$page_title = '403 &mdash; Forbbidden';
+$page_title = '403 &mdash; Forbidden';
 $body_class = '403-error';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
