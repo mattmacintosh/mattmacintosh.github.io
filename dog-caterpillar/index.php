@@ -77,9 +77,6 @@ $page_content = '<p>This installation consists of three pairs of small-scale ima
 		<?php echo $specifications; ?>
 
 
-		<?php echo $section_access; ?>
-
-
 		<main role="main" id="main-content" class="page-content">
 
 			<article role="article" class="page-entry hentry">
