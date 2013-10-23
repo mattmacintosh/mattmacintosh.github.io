@@ -13,7 +13,7 @@ $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 					<li class="im active"><a href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
 				</ul>
 			</nav>';
-$specifications = '<aside aria-label="piece-specifications" class="specifications">
+$specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 			<p class="block">Complete foundational texts are re-formatted as monochromes and printed on cellulose. They are buried underground on the last day of Fall 2012 (Dec 20), and will be exhumed on the first day of Winter 2013 (Dec 21).</p>
 			<ul class="block">
 				<li><span class="assisstive-text">Date of creation: </span>Ongoing</li>

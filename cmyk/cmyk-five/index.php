@@ -13,7 +13,7 @@ $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 					<li class="im"><a href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
 				</ul>
 			</nav>';
-$specifications = '<aside aria-label="piece-specifications" class="specifications">
+$specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 			<p>Oil paintings made using a projector to precisely imitate each of the eight images contained in the Mac OS desktop image folder named <em>Abstract</em>.</p>
 			<ul class="block">
 				<li><span class="assisstive-text">Date of creation: </span>2013</li>

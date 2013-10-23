@@ -13,7 +13,7 @@ $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 					<li class="im"><a href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
 				</ul>
 			</nav>';
-$specifications = '<aside aria-label="piece-specifications" class="specifications">
+$specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 			<ul class="block">
 				<li><span class="assisstive-text">Date of creation: </span>2011</li>
 				<li><span class="assisstive-text">Measurements: </span>Dimensions Variable</li>
