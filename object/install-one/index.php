@@ -33,7 +33,7 @@ $section_access = '<div role="complementary" class="section-access">
 				</ul>
 			</nav>
 		</div><!-- /.section-access -->';
-$page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/as/install/fl/Matt-Macintosh_Install-1-Mid_fl.jpg"><img alt="Object 1 Installation Photograph" src="http://mattmacintosh.com/images/as/install/tb/Matt-Macintosh_Install-1-Mid_tb.jpg" /></a></p>';
+$page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/object/fl/Matt-Macintosh_Install-1-Mid_fl.jpg"><img alt="Object 1 Installation Photograph" src="http://mattmacintosh.com/images/object/tb/Matt-Macintosh_Install-1-Mid_tb.jpg" /></a></p>';
 
 ?><!DOCTYPE html>
 

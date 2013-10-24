@@ -24,7 +24,11 @@ $specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 $section_access = '<div role="complementary" class="section-access">
 			<nav aria-label="subject-menu" role="navigation">
 				<ul class="block">
+					<li class="sub-2"><a href="/subject/subject-two/">Subject 2</a></li>
 					<li class="sub-3"><a href="/subject/subject-three/">Subject 3</a></li>
+					<li class="sub-7"><a href="/subject/subject-seven/">Subject 7</a></li>
+					<li class="sub-10"><a href="/subject/subject-ten/">Subject 10</a></li>
+					<li class="sub-11"><a href="/subject/subject-eleven/">Subject 11</a></li>
 					<li class="sub-15"><a href="/subject/subject-fifteen/">Subject 15</a></li>
 					<li class="sub-16"><a href="/subject/subject-sixteen/">Subject 16</a></li>
 					<li class="sub-17"><a href="/subject/subject-seventeen/">Subject 17</a></li>
@@ -32,11 +36,11 @@ $section_access = '<div role="complementary" class="section-access">
 					<li class="sub-21 active"><a href="/subject/subject-twentyone/">Subject 21</a></li>
 					<li class="sub-ins-4"><a href="/subject/install-four/">Subject 1, 5, 12 Installation</a></li>
 					<li class="sub-ins-3"><a href="/subject/install-three/">Subject 13, 14 Installation</a></li>
-					<li class="sub-ins-5 active"><a href="/subject/install-five/">Subject 7, 8, 9 Installation</a></li>
+					<li class="sub-ins-5"><a href="/subject/install-five/">Subject 7, 8, 9 Installation</a></li>
 				</ul>
 			</nav>
 		</div><!-- /.section-access -->';
-$page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/as/subject/fl/Matt-Macintosh_Subject-21_fl.jpg"><img alt="Subject 21 Photograph" src="http://mattmacintosh.com/images/as/subject/tb/Matt-Macintosh_Subject-21	_tb.jpg" /></a></p>';
+$page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/subject/fl/Matt-Macintosh_Subject-21_fl.jpg"><img alt="Subject 21 Photograph" src="http://mattmacintosh.com/images/subject/tb/Matt-Macintosh_Subject-21	_tb.jpg" /></a></p>';
 
 ?><!DOCTYPE html>
 

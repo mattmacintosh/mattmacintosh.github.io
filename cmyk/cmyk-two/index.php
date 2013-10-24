@@ -35,7 +35,7 @@ $section_access = '<div role="complementary" class="section-access">
 				</ul>
 			</nav>
 		</div><!-- /.section-access -->';
-$page_content = '<p class="thumbnail"><img alt="MacOS, Abstract CMYK 2 Photograph" src="http://mattmacintosh.com/images/as/cmyk/tb/Matt-Macintosh_CMYK-2_tb.jpg" /></p></p>';
+$page_content = '<p class="thumbnail"><img alt="MacOS, Abstract CMYK 2 Photograph" src="http://mattmacintosh.com/images/cmyk/tb/Matt-Macintosh_CMYK-2_tb.jpg" /></p></p>';
 
 ?><!DOCTYPE html>
 

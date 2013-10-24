@@ -1,12 +1,12 @@
 <?php 
 
-$page_title = 'Abstract 5';
-$body_class = 'cmyk cmyk-5';
+$page_title = 'Subject 10';
+$body_class = 'subject sub-10';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
-					<li class="sub"><a href="/subject/subject-three/">Subject</a></li>
+					<li class="sub active"><a href="/subject/subject-three/">Subject</a></li>
 					<li class="obj"><a href="/object/object-one/">Object</a></li>
-					<li class="cmyk active"><a href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
+					<li class="cmyk"><a href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
 					<li class="nagarjuna"><a href="/nagarjuna/">Nagarjuna and Difference</a></li>
 					<li class="dog"><a href="/dog-caterpillar/">Dog/Caterpillar</a></li>
 					<li class="spectacle"><a href="/spectacle-and-impermanence/">Spectacle and Impermanence</a></li>
@@ -14,28 +14,33 @@ $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				</ul>
 			</nav>';
 $specifications = '<aside aria-label="piece-specifications" class="piece-meta">
-			<p>Oil paintings made using a projector to precisely imitate each of the eight images contained in the Mac OS desktop image folder named <em>Abstract</em>.</p>
+			<p>Life sized images derived from archives photos documenting lab and munitions workers circa <abbr>WWII</abbr>. Lab culture, munitions and associated technology removed.</p>
 			<ul class="block">
-				<li><span class="assisstive-text">Date of creation: </span>2013</li>
-				<li><span class="assisstive-text">Measurements: </span>768 x 1024mm</li>
-				<li><span class="assisstive-text">Medium: </span>Oil on linen</li>
+				<li><span class="assisstive-text">Date of creation: </span>2012</li>
+				<li><span class="assisstive-text">Measurements: </span>43 x 46.5in (109cm x 118cm)</li>
+				<li><span class="assisstive-text">Medium: </span>Injet</li>
 			</ul>
 		</aside>';
 $section_access = '<div role="complementary" class="section-access">
-			<nav aria-label="abstract-CMYK-menu" role="navigation">
+			<nav aria-label="subject-menu" role="navigation">
 				<ul class="block">
-					<li class="cmyk-1"><a href="/cmyk/cmyk-one/">Abstract 1</a></li>
-					<li class="cmyk-2"><a href="/cmyk/cmyk-two/">Abstract 2</sa></li>
-					<li class="cmyk-3"><a href="/cmyk/cmyk-three/">Abstract 3</a></li>
-					<li class="cmyk-4"><a href="/cmyk/cmyk-four/">Abstract 4</a></li>
-					<li class="cmyk-5 active"><a href="/cmyk/cmyk-five/">Abstract 5</a></li>
-					<li class="cmyk-6"><a href="/cmyk/cmyk-six/">Abstract 6</a></li>
-					<li class="cmyk-7"><a href="/cmyk/cmyk-seven/">Abstract 7</a></li>
-					<li class="cmyk-8"><a href="/cmyk/cmyk-eight/">Abstract 8</a></li>
+					<li class="sub-2"><a href="/subject/subject-two/">Subject 2</a></li>
+					<li class="sub-3"><a href="/subject/subject-three/">Subject 3</a></li>
+					<li class="sub-7"><a href="/subject/subject-seven/">Subject 7</a></li>
+					<li class="sub-10 active"><a href="/subject/subject-ten/">Subject 10</a></li>
+					<li class="sub-11"><a href="/subject/subject-eleven/">Subject 11</a></li>
+					<li class="sub-15"><a href="/subject/subject-fifteen/">Subject 15</a></li>
+					<li class="sub-16"><a href="/subject/subject-sixteen/">Subject 16</a></li>
+					<li class="sub-17"><a href="/subject/subject-seventeen/">Subject 17</a></li>
+					<li class="sub-18"><a href="/subject/subject-eighteen/">Subject 18</a></li>
+					<li class="sub-21"><a href="/subject/subject-twentyone/">Subject 21</a></li>
+					<li class="sub-ins-4"><a href="/subject/install-four/">Subject 1, 5, 12 Installation</a></li>
+					<li class="sub-ins-3"><a href="/subject/install-three/">Subject 13, 14 Installation</a></li>
+					<li class="sub-ins-5"><a href="/subject/install-five/">Subject 7, 8, 9 Installation</a></li>
 				</ul>
 			</nav>
 		</div><!-- /.section-access -->';
-$page_content = '<p class="thumbnail"><img alt="MacOS, Abstract CMYK 5 Photograph" src="http://mattmacintosh.com/images/cmyk/tb/Matt-Macintosh_CMYK-5_tb.jpg" /></p>';
+$page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/subject/fl/Matt-Macintosh_Subject-10_fl.jpg"><img alt="Subject 3 Photograph" src="http://mattmacintosh.com/images/subject/tb/Matt-Macintosh_Subject-10_tb.jpg" /></a></p>';
 
 ?><!DOCTYPE html>
 
