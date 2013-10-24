@@ -7,7 +7,7 @@ $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 					<li class="sub"><a href="/subject/subject-three/">Subject</a></li>
 					<li class="obj"><a href="/object/object-one/">Object</a></li>
 					<li class="cmyk"><a href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
-					<li class="nagarjuna"><a href="/nagarjuna/">Nagarjuna</a></li>
+					<li class="nagarjuna"><a href="/nagarjuna/">Nagarjuna and Difference</a></li>
 					<li class="dog"><a href="/dog-caterpillar/">Dog/Caterpillar</a></li>
 					<li class="spectacle active"><a href="/spectacle-and-impermanence/">Spectacle and Impermanence</a></li>
 					<li class="im"><a href="/im/al-qur-an/">Illuminated Manuscripts</a></li>

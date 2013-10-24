@@ -1,19 +1,20 @@
 <?php 
 
-$page_title = 'Nagarjuna';
+$page_title = 'Nagarjuna and Difference';
 $body_class = 'im nagarjuna';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-three/">Subject</a></li>
 					<li class="obj"><a href="/object/object-one/">Object</a></li>
 					<li class="cmyk"><a href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
-					<li class="nagarjuna active"><a href="/nagarjuna/">Nagarjuna</a></li>
+					<li class="nagarjuna active"><a href="/nagarjuna/">Nagarjuna and Difference</a></li>
 					<li class="dog"><a href="/dog-caterpillar/">Dog/Caterpillar</a></li>
 					<li class="spectacle"><a href="/spectacle-and-impermanence/">Spectacle and Impermanence</a></li>
 					<li class="im"><a href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
 				</ul>
 			</nav>';
 $specifications = '<aside aria-label="piece-specifications" class="piece-meta">
+			<p><a href="http://plato.stanford.edu/entries/nagarjuna/" class="trigger" rel="external">Nagarjuna’s</a> <a  href="/images/nagarjuna/Karik-Presentation-File.zip" class="trigger">Mulamadhyamakakarika</a>, is reorganized into columns containing every occurrence of each distinct word in the text. In a durational performance, each distinct word is calligraphed into a book opened to its middle page and laid on the floor. </p>
 			<ul class="block">
 				<li><span class="assisstive-text">Date of creation: </span>2011</li>
 				<li><span class="assisstive-text">Measurements: </span>Dimensions Variable</li>
