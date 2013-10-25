@@ -4,7 +4,7 @@ $page_title = 'Subject 13, 14 Installation';
 $body_class = 'subject sub-ins-3';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
-					<li class="sub active"><a href="/subject/subject-two/">Subject</a></li>
+					<li class="sub active"><a href="/subject/subject-one/">Subject</a></li>
 					<li class="obj"><a href="/object/object-one/">Object</a></li>
 					<li class="cmyk"><a href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
 					<li class="nagarjuna"><a href="/nagarjuna/">Nagarjuna and Difference</a></li>
@@ -24,18 +24,18 @@ $specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 $section_access = '<div role="complementary" class="section-access">
 			<nav aria-label="subject-menu" role="navigation">
 				<ul class="block">
+					<li class="sub-1"><a href="/subject/subject-one/">Subject 1</a></li>
 					<li class="sub-2"><a href="/subject/subject-two/">Subject 2</a></li>
 					<li class="sub-3"><a href="/subject/subject-three/">Subject 3</a></li>
-					<li class="sub-7"><a href="/subject/subject-seven/">Subject 7</a></li>
-					<li class="sub-10"><a href="/subject/subject-ten/">Subject 10</a></li>
-					<li class="sub-11"><a href="/subject/subject-eleven/">Subject 11</a></li>
+					<li class="sub-5"><a href="/subject/subject-five/">Subject 5</a></li>
+					<li class="sub-12"><a href="/subject/subject-twelve/">Subject 12</a></li>
 					<li class="sub-15"><a href="/subject/subject-fifteen/">Subject 15</a></li>
 					<li class="sub-16"><a href="/subject/subject-sixteen/">Subject 16</a></li>
 					<li class="sub-17"><a href="/subject/subject-seventeen/">Subject 17</a></li>
 					<li class="sub-18"><a href="/subject/subject-eighteen/">Subject 18</a></li>
 					<li class="sub-21"><a href="/subject/subject-twentyone/">Subject 21</a></li>
 					<li class="sub-ins-4"><a href="/subject/install-four/">Subject 1, 5, 12 Installation</a></li>
-					<li class="sub-ins-3" active><a href="/subject/install-three/">Subject 13, 14 Installation</a></li>
+					<li class="sub-ins-3 active"><a href="/subject/install-three/">Subject 13, 14 Installation</a></li>
 					<li class="sub-ins-5"><a href="/subject/install-five/">Subject 7, 8, 9 Installation</a></li>
 				</ul>
 			</nav>
