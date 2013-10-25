@@ -32,13 +32,9 @@ $section_access = '<div role="complementary" class="section-access">
 		</div><!-- /.section-access -->';
 $page_content = '<p><a href="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install.jpg"><img src="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install_266x400.jpg" alt="Installation shot of Mulamadhyamakakarika" /></a></p>
 
-<p>The words in Nagarjuna’s Mulamadhyamakakarika (<em>Fundamental Wisdom of the Middle Way</em>), have been isolated into groups and placed in columns which are arranged side by side. Each group or column consists of every instance of a particular word used in the text, 1370 in all. The type is set in 4 point Adobe Garamond Pro with 3.7 point leading. The top of each column is positioned along a horizontal axis totalling just over 19 feet in length. The reassembled spiritual text is presented as a PDF which may be <a href="http://mattmacintosh.com/images/nagarjuna/Karik-Presentation-File.zip" class="trigger">downloaded</a> and edited.</p>
-
 <p>http://www.vimeo.com/26085139</p>
 
 <p><a href="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install2_664x1000.jpg"><img src="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install2_266x400.jpg" alt="Viewers and performers." /></a></p>
-
-<p>The PDF informs a practice of inscribing the word identified by each column across the middle page of 1370 books. Each book is laid onto the floor. As air passes through the room, the pages of the books are lifted and lowered. Visitors entering the space are instructed to remove footwear and encouraged to walk on top of the books. The techniques of identification, isolation and analysis used to schematize the PDF echo discursive practices used in data production and here provide structure for a ritual practice of accumulation. The resulting material environment invites participation in a re-evaluation of formalized spiritual practice.</p>
 
 <p><a href="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_Book_Scan_1_1000.jpg"><img src="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_Book_Scan_1_400.jpg" alt="Books are placed through repeated action." /></a></p>
 
