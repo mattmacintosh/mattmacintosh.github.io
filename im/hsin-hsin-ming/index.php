@@ -4,7 +4,7 @@ $page_title = 'Hsin Hsin Ming';
 $body_class = 'im ming';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
-					<li class="sub"><a href="/subject/subject-three/">Subject</a></li>
+					<li class="sub"><a href="/subject/subject-two/">Subject</a></li>
 					<li class="obj"><a href="/object/object-one/">Object</a></li>
 					<li class="cmyk"><a href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
 					<li class="nagarjuna"><a href="/nagarjuna/">Nagarjuna and Difference</a></li>
