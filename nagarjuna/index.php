@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Nagarjuna and Difference';
-$body_class = 'im nagarjuna';
+$body_class = 'nagarjuna video';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
@@ -32,7 +32,7 @@ $section_access = '<div role="complementary" class="section-access">
 		</div><!-- /.section-access -->';
 $page_content = '<p><a href="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install.jpg"><img src="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install_266x400.jpg" alt="Installation shot of Mulamadhyamakakarika" /></a></p>
 
-<p>http://www.vimeo.com/26085139</p>
+<p><iframe src="//player.vimeo.com/video/26085139" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 
 <p><a href="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install2_664x1000.jpg"><img src="http://mattmacintosh.com/images/nagarjuna/Matt-Macintosh_MMK_Install2_266x400.jpg" alt="Viewers and performers." /></a></p>
 

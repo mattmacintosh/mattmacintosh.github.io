@@ -53,8 +53,9 @@ textarea {
 	font:inherit;
 }
 
-/* flexible images */
-img {
+/* flexible media */
+img,
+iframe {
 	height: auto;
 	width: 100%;
 }
@@ -147,6 +148,9 @@ body {
 }
 .thumbnail img {
 	vertical-align: bottom;
+}
+.video iframe {
+	height: 30em;
 }
 
 /* typographic rules

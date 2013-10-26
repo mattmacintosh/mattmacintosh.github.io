@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Dog/Caterpillar';
-$body_class = 'im dog';
+$body_class = 'dog  video';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
@@ -22,7 +22,8 @@ $specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 		</aside>';
 $page_content = '<p>This installation consists of three pairs of small-scale images and a large-scale video projection with two-channels looping at different rates.  The video shows a South American centipede birthing itself out of its own exoskeleton and then turning around and eating the very body it has just shed. In the right hand channel, it shows a dog endlessly chasing its own tail. Both of these videos are edited versions of found footage from the internet.</p>
 
-<p>http://vimeo.com/31507385</p>
+<p><iframe src="//player.vimeo.com/video/31507385" width="500" height="369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</p>
 
 <p>On the left-hand side of each image pair is factory smoke billowing out of smokestacks from America, Lebanon and Japan. On the right are images from the World Trade Centre collapse, warplanes over Lebanon, and a damaged nuclear reactor in Japan. In all six images, only the smoke clouds and sky have not been digitally removed.</p>
 
