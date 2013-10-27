@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Dog/Caterpillar';
-$body_class = 'dog  video';
+$body_class = 'dog video';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
