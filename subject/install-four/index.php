@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Subject 1, 5, 12 Installation';
-$body_class = 'subject sub-ins-4';
+$body_class = 'featured subject sub-ins-4';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub active"><a href="/subject/subject-one/">Subject</a></li>
@@ -108,7 +108,7 @@ $page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/s
 
 			<nav aria-label="site-information-menu" role="navigation">
 				<ul class="nav">
-					<li>2009-13 Matt Macintosh</li>
+					<li class="first">2009-13 Matt Macintosh</li>
 					<li class="contact highlight"><a href="/contact/">Contact</a></li>
 					<li class="page-top"><a href="#page-top">Top</a></li>
 				</ul>

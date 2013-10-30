@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Spectacle and Impermanence';
-$body_class = 'spectacle video';
+$body_class = 'featured spectacle video';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
@@ -106,7 +106,7 @@ $page_content = '<p><a href="http://mattmacintosh.com/images/si/Matt-Macintosh_I
 
 			<nav aria-label="site-information-menu" role="navigation">
 				<ul class="nav">
-					<li>2009-13 Matt Macintosh</li>
+					<li class="first">2009-13 Matt Macintosh</li>
 					<li class="contact highlight"><a href="/contact/">Contact</a></li>
 					<li class="page-top"><a href="#page-top">Top</a></li>
 				</ul>

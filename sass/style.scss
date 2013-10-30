@@ -96,25 +96,18 @@ body {
 .page-wrap {
 	padding: 0 7em 10em;
 }
-.masthead {
+.masthead,
+.page-entry {
 	padding-top: 10em;
 }
 .masthead,
-.piece-meta          	,
+.piece-meta,
 .section-access {
 	clear: left;
 	float: left;
 	width: 24em;
 }
-.page-content {
-	padding-top: 10em;
-}
-.subject .page-content,
-.object .page-content,
-.cmyk .page-content,
-.nagarjuna .page-content,
-.dog .page-content,
-.spectacle .page-content {
+.featured .page-entry {
 	padding-top: 3em;
 }
 .page-entry {
@@ -135,6 +128,15 @@ body {
 .nav > li:first-child {
 	border-left: 0;
 }
+.lt-ie7 .nav li {
+	border-left: 1px solid #ddd;
+	float: left;
+	padding: 0 6px;
+}
+.lt-ie7 .nav li.first {
+	border-left: 0;
+}
+
 .block {
 	margin-bottom: 2.8em;
 }

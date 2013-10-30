@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Phenomenology of Spirit';
-$body_class = 'im spirit';
+$body_class = 'featured im spirit';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
@@ -109,7 +109,7 @@ $page_content = '<p class="thumbnail"><img src="http://mattmacintosh.com/images/
 
 			<nav aria-label="site-information-menu" role="navigation">
 				<ul class="nav">
-					<li>2009-13 Matt Macintosh</li>
+					<li class="first">2009-13 Matt Macintosh</li>
 					<li class="contact highlight"><a href="/contact/">Contact</a></li>
 					<li class="page-top"><a href="#page-top">Top</a></li>
 				</ul>

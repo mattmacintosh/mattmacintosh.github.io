@@ -75,7 +75,7 @@ $page_content = '<p>I am an inter–media artist interested in the ways models o
 
 			<nav aria-label="site-information-menu" role="navigation">
 				<ul class="nav">
-					<li>2009-13 Matt Macintosh</li>
+					<li class="first">2009-13 Matt Macintosh</li>
 					<li class="contact highlight"><a href="/contact/">Contact</a></li>
 					<li class="page-top"><a href="#page-top">Top</a></li>
 				</ul>

@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Object 1';
-$body_class = 'object obj-1';
+$body_class = 'featured object obj-1';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
@@ -101,7 +101,7 @@ $page_content = '<p class="thumbnail"><a href="http://mattmacintosh.com/images/o
 
 			<nav aria-label="site-information-menu" role="navigation">
 				<ul class="nav">
-					<li>2009-13 Matt Macintosh</li>
+					<li class="first">2009-13 Matt Macintosh</li>
 					<li class="contact highlight"><a href="/contact/">Contact</a></li>
 					<li class="page-top"><a href="#page-top">Top</a></li>
 				</ul>
