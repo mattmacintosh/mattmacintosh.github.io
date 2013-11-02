@@ -8,7 +8,7 @@ ErrorDocument 500 /errors/serverr/
 Options -Indexes
 
 # PROTECT SENSITIVE FILES BY FILE EXTENSION 
-<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log)$">
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|git)$">
  Order Deny,Allow
  Deny from all 
 </FilesMatch>
