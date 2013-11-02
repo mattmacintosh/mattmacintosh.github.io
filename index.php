@@ -13,7 +13,8 @@ $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 					<li class="im"><a href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
 				</ul>
 			</nav>';
-$page_content = '<p>I am an inter–media artist interested in the ways models of personal emancipation fold into knowledge. Rooted in painting and conceptual art traditions, my practice explores abstraction as a method to re–organize and even consecrate encounters between disciplinary knowledge and identity development.</p>';
+$page_content = '<p>I am an inter–media artist interested in the ways models of personal emancipation fold into knowledge. Rooted in painting and conceptual art traditions, my practice explores abstraction as a method to re–organize and even consecrate encounters between disciplinary knowledge and identity development.</p>
+<p>Hi Ifran!</p>';
 
 ?><!DOCTYPE html>
 
