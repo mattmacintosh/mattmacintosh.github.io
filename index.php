@@ -1,7 +1,7 @@
 <?php 
 
 $page_title = 'Matt Macintosh &mdash; More Art Than Art';
-$body_class = 'home';
+$body_class = 'home git-pull-test';
 $main_nav = '<nav aria-label="main-menu" role="navigation" id="main-access">
 				<ul class="block">
 					<li class="sub"><a href="/subject/subject-one/">Subject</a></li>
