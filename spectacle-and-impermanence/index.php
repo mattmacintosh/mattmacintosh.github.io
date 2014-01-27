@@ -33,11 +33,7 @@ $section_access = '<div role="complementary" class="section-access">
 		</div><!-- /.section-access -->';
 $page_content = '<p><iframe src="//player.vimeo.com/video/41506061" width="500" height="369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 
-<p><a href="http://mattmacintosh.com/images/si/Matt-Macintosh_Install-1_1000.jpg"><img src="http://mattmacintosh.com/images/si/Matt-Macintosh_Install-1_400.jpg" alt="Photograph of Show Installation" /></a></p>
-
-<p>In this installation, viewers walk through an impressive, if neglected neo-gothic building at the University of Toronto. At the centrepiece staircase, words from the building\'s signage, from advertising slogans, and from the graffiti of the Parisian riots of 1968 are printed on loose-leaf paper that simulates leaves as it falls through the air to the bottom steps. These three sets of performative aphorisms are removed from their \'native\' graphic discourses, formatted identically, and endlessly output from three networked printers.</p>
-
-<p>Less concerned with negation or ironic shifts in meaning, <em>Spectacle and Impermanence</em> is an attempt to isolate out the way the texts refer and relate to each other, and to the viewer. Moreover, it speculates about how texts—particularly those linked to space and architecture—may circulate, direct behaviour, and how they integrate as both meaning-makers and artefacts or souvenirs in experience. The work also attempts to display itself as a sort of late capitalist pleasure-bringer: a staged, theatricalized moment brought to life by things that can be seen, used, collected and discarded. </p>';
+<p><a href="http://mattmacintosh.com/images/si/Matt-Macintosh_Install-1_1000.jpg"><img src="http://mattmacintosh.com/images/si/Matt-Macintosh_Install-1_400.jpg" alt="Photograph of Show Installation" /></a></p>';
 
 ?><!DOCTYPE html>
 
