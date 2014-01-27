@@ -17,7 +17,7 @@ $specifications = '<aside aria-label="piece-specifications" class="piece-meta">
 			<p>Life sized images derived from archives photos documenting lab and munitions workers circa <abbr>WWII</abbr>. Lab culture, munitions and associated technology removed.</p>
 			<ul class="block">
 				<li><span class="assisstive-text">Date of creation: </span>2012</li>
-				<li><span class="assisstive-text">Measurements: </span>43 x 46.5in (109cm x 118cm)</li>
+				<li><span class="assisstive-text">Measurements: </span>55 x 44in (140 x 112cm)</li>
 				<li><span class="assisstive-text">Medium: </span>Injet</li>
 			</ul>
 		</aside>';
