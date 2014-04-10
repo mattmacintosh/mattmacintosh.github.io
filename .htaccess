@@ -1,0 +1,17 @@
+# DISABLE DIRECTORIES VIEW
+Options -Indexes
+
+# PROTECT SENSITIVE FILES BY FILE EXTENSION 
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|git)$">
+ Order Deny,Allow
+ Deny from all 
+</FilesMatch>
+
+# REDIRECT 404 MOBILE REQUESTS
+<ifmodule mod_rewrite.c>
+ RewriteCond %{REQUEST_URI} /iphone/?$ [NC,OR]
+ RewriteCond %{REQUEST_URI} /mobile/?$ [NC,OR]
+ RewriteCond %{REQUEST_URI} /mobi/?$ [NC,OR]
+ RewriteCond %{REQUEST_URI} /m/?$ [NC]
+ RewriteRule (.*) http://mattmacintosh.com/ [R=301,L] 
+</ifmodule>
