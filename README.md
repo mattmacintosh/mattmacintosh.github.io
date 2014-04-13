@@ -6,6 +6,6 @@
 
 ## Transformation
 
-In it's life Matt's website has undergone a circular transformation. From static, to dynamic driven (via WordPress), and back to static (with Jekyll's  help). It's been quite the ride. One we're all better off having taken.
+In it's life, Matt's website has undergone a circular transformation. From static, to dynamic driven (via WordPress), and back to static (with Jekyll's help). It's been quite the ride. One we're all better off having taken.
 
-This repository is now hosteed  on Github Pages. <a href="http://mattmacintosh.com">Visit mattmacintosh.com to see</a>.
+Also this repository is now hosted/ generated on/ with Github Pages/ Github and Jekyll. Visit <a href="http://mattmacintosh.com">mattmacintosh.com</a> to see.
