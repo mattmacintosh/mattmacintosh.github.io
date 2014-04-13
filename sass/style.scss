@@ -30,7 +30,7 @@ ol, ul {
 /* Additional Resets
    --------------------------------------------------------------------------- */
 /* text meant for AT */
-.assisstive-text {
+.assistive-text {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
@@ -183,6 +183,7 @@ em {
 .highlight, .page-top {
 	text-transform: uppercase;
 }
-.trigger {
+.page-content a,
+.piece-meta a {
 	text-decoration: underline;
 }
