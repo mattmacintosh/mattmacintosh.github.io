@@ -4,7 +4,7 @@
 	Developer:Johnny Taylor
 	Twitter:@abledaccess
 	Contact:http://johnnytaylor.org/
-	Last update:2014/02/05
+	Last update:2014/04/13
 	Language:English
-	Components:Modernizr, Sass, Jekyll
+	Components:Modernizr, Sass, Jekyll, Github, Github Pages
 	Built with:HTML, CSS, Javascript, TextMate, xScope, Photoshop
