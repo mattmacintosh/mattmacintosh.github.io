@@ -29,7 +29,11 @@
 
 		<header role="banner" class="masthead">
 			<div class="branding">
-				<div class="site-title block"><a href="/" rel="home">Matt Macintosh</a></div>
+{% if page.title == 'Matt Macintosh &mdash; More Art Than Art' %}
+		    <h1 class="site-title block"><a href="/" rel="home">Matt Macintosh</a></h1>
+{% else %}
+	    <div class="site-title block"><a href="/" rel="home">Matt Macintosh</a></div>
+{% endif %}
 			</div><!-- /.branding -->
 
 			<nav aria-label="main-menu" role="navigation" id="main-access">
