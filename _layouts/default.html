@@ -10,7 +10,7 @@
 
 <meta charset="UTF-8" />
 
-<title>{{ page.title }}</title>
+<title>{% if page.html-class contains 'home' %}Matt Macintosh &mdash; More Art Than Art{% else %}{{ page.title }} &mdash; Matt Macintosh{% endif %}</title>
 
 <link type="text/plain" rel="author" href="/humans.txt"/>
 
