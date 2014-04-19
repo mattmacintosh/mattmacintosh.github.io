@@ -50,7 +50,40 @@
 
 		</header>
 
+{% if page.html-class contains 'subject' %}{% include subject-piece-meta.html %}
+{% elsif page.html-class contains 'object' %}{% include object-piece-meta.html %}
+{% elsif page.html-class contains 'cmyk' %}{% include cmyk-piece-meta.html %}
+{% elsif page.html-class contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
+{% elsif page.html-class contains 'dog' %}{% include dog-piece-meta.html %}
+{% elsif page.html-class contains 'spectacle' %}{% include spectacle-piece-meta.html %}
+{% elsif page.html-class contains 'illuminated' %}{% include illuminated-piece-meta.html %}
+{% else %}{% endif %}
+
+		<main role="main" id="main-content" class="page-content">
+
+			<article role="article" class="page-entry hentry">
+
+				<header class="entry-header">
+{% if page.html-class contains 'home' %}
+					<h2 class="entry-title block">{{ page.title }}</h2>
+{% elsif page.html-class contains 'contact' %}
+					<h1 class="entry-title block">{{ page.title }}</h1>
+{% elsif page.html-class contains 'not-found' %}
+					<h1 class="entry-title block">{{ page.title }}</h1>
+{% else %}
+					<h1 class="entry-title assistive-text">{{ page.title }}</h1>
+{% endif %}
+				</header><!-- /.entry-header -->
+
+				<div class="entry-content block">
+
 {{ content }}
+
+				</div><!-- /.entry-content -->
+
+			</article>
+
+		</main>
 
 		<footer role="contentinfo" class="colophon">
 

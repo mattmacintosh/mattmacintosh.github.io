@@ -1,10 +1,6 @@
 		<aside aria-label="piece-specifications" class="piece-meta">
 			<p class="block">Complete foundational texts re-formatted as monochromes and printed on cellulose. Prints were buried underground on the last day of fall 2012 (Dec 20), and will be exhumed on the last day of spring 2014 (June 20).</p>
-			<ul class="block">
-				<li><span class="assistive-text">Date of creation: </span>{{ page.piece-year }}</li>
-				<li><span class="assistive-text">Measurements: </span>{{ page.piece-measurements }}</li>
-				<li><span class="assistive-text">Medium: </span>{{ page.piece-medium }}</li>
-			</ul>
+{% include piece-specifics.html %}
 		</aside>
 		<div role="complementary" class="section-access">
 			<nav aria-label="illuminated-manuscripts-menu" role="navigation">
