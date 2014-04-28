@@ -67,8 +67,8 @@ a, a:visited {
 	text-decoration:none;
 }
 a:hover, a:active, a:focus {
-	background: #222;
-	color: #fff;
+	background: #222 !important;
+	color: #fff !important;
 }
 .subject .subject a, 
 .sub-one .sub-one a, .sub-two .sub-two a, .sub-three .sub-three a, .sub-five .sub-five a, .sub-twelve .sub-twelve a, .sub-fifteen .sub-fifteen a, .sub-sixteen .sub-sixteen a, .sub-seventeen .sub-seventeen a, .sub-eighteen .sub-eighteen a, .sub-twentyone .sub-twentyone a, .sub-ins-four .sub-ins-four a, .sub-ins-three .sub-ins-three a, .sub-ins-five .sub-ins-five a,
@@ -85,7 +85,7 @@ a:hover, a:active, a:focus {
 	color: #666;
 }
 a:focus img {
-	outline: 2px solid #000;
+	outline: 2px solid #000 !important;
 }
 
 /* changing the selected text colour and background */
