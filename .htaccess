@@ -1,3 +1,9 @@
+# REDIRECTING WWW TO NON-WWW
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^mattmacintosh\.com$ [NC]
+RewriteRule ^(.*)$ http://mattmacintosh.com/$1 [R=301,L]
+
 # DISABLE DIRECTORIES VIEW
 Options -Indexes
 
