@@ -2,7 +2,7 @@
 
 ## About
 
-"I am an inter–media artist interested in the ways models of personal emancipation fold into knowledge. Rooted in painting and conceptual art traditions, my practice explores abstraction as a method to re–organize and even consecrate encounters between disciplinary knowledge and identity development."
+"I am an interdisciplinary artist based in Ramara, Ontario. My practice is indebted mainly to painting and conceptual art traditions and is centred in both religious and secular notions of emancipation. My work explores, among other things, part–whole relations, protocols for producing disciplinary knowledge, and systematic approaches to abstraction. I am a graduate of the Master of Visual Studies program at the University of Toronto and have exhibited in Canada and the U.S. I am currently Curator at the Orillia Museum of Art & History. "
 
 ## Transformation
 
