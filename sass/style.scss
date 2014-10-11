@@ -70,6 +70,8 @@ a:hover, a:active, a:focus {
 	background: #222 !important;
 	color: #fff !important;
 }
+.real-estates .real-estates a, 
+.real-estates-one .real-estates-one a, .real-estates-two .real-estates-two a, .real-estates-three .real-estates-three a, .real-estates-four .real-estates-four a, .real-estates-five .real-estates-five a, .real-estates-six .real-estates-six a, .real-estates-seven .real-estates-seven a, .real-estates-eight .real-estates-eight a, .real-estates-nine .real-estates-nine a, .real-estates-ten .real-estates-ten a, .real-estates-eleven .real-estates-eleven a, .real-estates-twelve .real-estates-twelve a, .real-estates-thirteen .real-estates-thirteen a, .real-estates-fourteen .real-estates-fourteen a, .real-estates-fifteen .real-estates-fifteen a, .real-estates-sixteen .real-estates-sixteen a, .real-estates-seventeen .real-estates-seventeen a, 
 .subject .subject a, 
 .sub-one .sub-one a, .sub-two .sub-two a, .sub-three .sub-three a, .sub-five .sub-five a, .sub-twelve .sub-twelve a, .sub-fifteen .sub-fifteen a, .sub-sixteen .sub-sixteen a, .sub-seventeen .sub-seventeen a, .sub-eighteen .sub-eighteen a, .sub-twentyone .sub-twentyone a, .sub-ins-four .sub-ins-four a, .sub-ins-three .sub-ins-three a, .sub-ins-five .sub-ins-five a,
 .object .object a, 
@@ -80,9 +82,10 @@ a:hover, a:active, a:focus {
 .dog .dog a,
 .spectacle .spectacle a,
 .illuminated .illuminated a,
-.al-q .al-q a, .bhagavad .bhagavad a, .crest .crest a, .critique .critique a, .de-docta .de-docta a, .hsin .hsin a, .mula .mula a, .new-test .new-test a, .old-test .old-test a, .phenom .phenom a, .philo .philo a, .synth .synth a, .tao-te .tao-te a, .upanish .upanish a {
-	background: #fff;
-	color: #666;
+.al-q .al-q a, .bhagavad .bhagavad a, .crest .crest a, .critique .critique a, .de-docta .de-docta a, .hsin .hsin a, .mula .mula a, .new-test .new-test a, .old-test .old-test a, .phenom .phenom a, .philo .philo a, .synth .synth a, .tao-te .tao-te a, .upanish .upanish a, 
+.contact .contact a, {
+	background: #222;
+	color: #fff;
 }
 a:focus img {
 	outline: 2px solid #000 !important;
