@@ -182,6 +182,7 @@ em {
 }
 .highlight {
 	font-weight: bold;
+	text-decoration: none !important;
 }
 .highlight, .page-top {
 	text-transform: uppercase;
@@ -189,4 +190,10 @@ em {
 .page-content a,
 .piece-meta a {
 	text-decoration: underline;
+}
+.oac {
+	width: 16em;
+}
+.tac {
+	width: 9em;
 }
