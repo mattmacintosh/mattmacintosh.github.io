@@ -1,5 +1,5 @@
 markdown: redcarpet
-pygments: true
+highlights: "pygments"
 
 name: Matt Macintosh
 url: http://mattmacintosh.com
