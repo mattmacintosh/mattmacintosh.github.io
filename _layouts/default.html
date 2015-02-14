@@ -20,6 +20,8 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css" media="all" />
 
 <script src="/js/modernizr.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery.backstretch.js"></script>
 
 </head>
 
@@ -78,6 +80,32 @@
 				<div class="entry-content section">
 
 {{ content }}
+	
+{% if page.html-class contains 'real-estates' %}
+					<script>
+						$.backstretch(["http://mattmacintosh.com/images/wallpaper/Real-Estates_WP.jpg"]);
+					</script>
+{% elsif page.html-class contains 'subject' %}
+					<script>
+						$.backstretch(["http://mattmacintosh.com/images/wallpaper/Subject_WP.jpg"]);
+					</script>
+{% elsif page.html-class contains 'cmyk' %}
+					<script>
+						$.backstretch(["http://mattmacintosh.com/images/wallpaper/Mac-OS-CMYK_Davos.WP.jpg"]);
+					</script>
+{% elsif page.html-class contains 'nagarjuna' %}
+					<script>
+						$.backstretch(["http://mattmacintosh.com/images/wallpaper/Nagarjuna-and-Difference_WP.jpg"]);
+					</script>
+{% elsif page.html-class contains 'dog' %}
+					<script>
+						$.backstretch(["http://mattmacintosh.com/images/wallpaper/Dog-Caterpillar_WP.jpg"]);
+					</script>
+{% elsif page.html-class contains 'illuminated' %}
+					<script>
+						$.backstretch(["http://mattmacintosh.com/images/wallpaper/Illuminated-Manuscripts_WP.jpg"]);
+					</script>
+{% endif %}
 
 				</div><!-- /.entry-content -->
 

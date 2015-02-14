@@ -103,7 +103,11 @@ a:focus img {
 
 /* layout rules
    --------------------------------------------------------------------------- */
-
+html,
+body,
+.page-wrap {
+	height: 100%;
+}
 body {
 	width: 87em;
 }
