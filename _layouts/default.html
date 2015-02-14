@@ -19,7 +19,7 @@
 
 <link rel="stylesheet" type="text/css" href="/css/style.css" media="all" />
 
-<script type="text/javascript" src="/js/modernizr.js"></script>
+<script src="/js/modernizr.js"></script>
 
 </head>
 
@@ -30,14 +30,14 @@
 		<header role="banner" class="masthead">
 			<div class="branding">
 {% if page.html-class contains 'home' %}
-		    	<h1 class="site-title block"><a href="/" rel="home">Matt Macintosh</a></h1>
+		    	<h1 class="site-title section"><a href="/" rel="home">Matt Macintosh</a></h1>
 {% else %}
-	    		<div class="site-title block"><a href="/" rel="home">Matt Macintosh</a></div>
+	    		<div class="site-title section"><a href="/" rel="home">Matt Macintosh</a></div>
 {% endif %}
 			</div><!-- /.branding -->
 
-			<nav aria-label="main-menu" role="navigation" id="main-access">
-				<ul class="block">
+			<nav aria-label="main-menu" role="navigation" id="main-access" class="main-access">
+				<ul class="section">
 					<li><a class="real-estates" href="/real-estates/real-estates-one/">Real Estates</a></li>
 					<li><a class="subject" href="/subject/subject-one/">Subject</a></li>
 					<li><a class="cmyk" href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
@@ -65,17 +65,17 @@
 
 				<header class="entry-header">
 {% if page.html-class contains 'home' %}
-					<h2 class="entry-title block">{{ page.title }}</h2>
+					<h2 class="entry-title section">{{ page.title }}</h2>
 {% elsif page.html-class contains 'contact' %}
-					<h1 class="entry-title block">{{ page.title }}</h1>
+					<h1 class="entry-title section">{{ page.title }}</h1>
 {% elsif page.html-class contains 'not-found' %}
-					<h1 class="entry-title block">{{ page.title }}</h1>
+					<h1 class="entry-title section">{{ page.title }}</h1>
 {% else %}
 					<h1 class="entry-title assistive-text">{{ page.title }}</h1>
 {% endif %}
 				</header><!-- /.entry-header -->
 
-				<div class="entry-content block">
+				<div class="entry-content section">
 
 {{ content }}
 
@@ -87,7 +87,7 @@
 
 		<footer role="contentinfo" class="colophon">
 
-			<nav aria-label="site-information-menu" role="navigation">
+			<nav aria-label="site-information-menu" class="site-info section" role="navigation">
 				<ul class="nav">
 					<li class="first">2009-{{ 'now' | date: "%y" }} Matt Macintosh</li>
 					<li><a class="contact highlight" href="/contact/">Contact</a></li>
@@ -98,7 +98,6 @@
 		</footer>
 
 	</div><!-- /.page-wrap -->
-
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
