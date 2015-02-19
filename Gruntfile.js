@@ -18,14 +18,14 @@ module.exports = function(grunt) {
 					style: 'compressed'
 				},
 				files: {
-					'css/build/style.min.css': 'sass/style.scss'
+					'css/build/style.min.css': 'css/sass/style.scss'
 				}
 			}
 		},
 
 		watch: {
 			css: {
-				files: 'sass/style.scss',
+				files: 'css/sass/style.scss',
 				tasks: ['sass'],
 			},
 			js: {
@@ -42,6 +42,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'sass', 'watch']);
+  grunt.registerTask('default', ['watch']);
 
 };
