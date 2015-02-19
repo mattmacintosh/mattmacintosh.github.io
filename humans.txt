@@ -3,8 +3,8 @@
 	Site URL:http://mattmacintosh.com/
 	Developer:Johnny Taylor
 	Twitter:@abledaccess
-	Contact:http://johnnytaylor.org/
-	Last update:2014/04/13
+	Contact:http://ajohnnytaylor.org/
+	Last update:2015/02/19
 	Language:English
-	Components:Modernizr, Sass, Jekyll, Github, Github Pages
+	Components:Modernizr, jQuery, Backstretch, Sass, Grunt, Jekyll, Github, Github Pages
 	Built with:HTML, CSS, Javascript, TextMate, xScope, Photoshop
