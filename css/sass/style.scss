@@ -182,9 +182,19 @@ body {
 .lt-ie7 .nav li.first {
 	border-left: 0;
 }
+.lt-ie9 .backstretch {
+	display: none;
+}
 
 .video iframe {
 	height: 29.25em;
+}
+
+.oac {
+	width: 16em;
+}
+.tac {
+	width: 9em;
 }
 
 /* typographic rules
@@ -217,10 +227,4 @@ em {
 .page-content a,
 .piece-meta a {
 	text-decoration: underline;
-}
-.oac {
-	width: 16em;
-}
-.tac {
-	width: 9em;
 }
