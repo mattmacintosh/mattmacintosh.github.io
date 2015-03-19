@@ -21,3 +21,6 @@ Options -Indexes
  RewriteCond %{REQUEST_URI} /m/?$ [NC]
  RewriteRule (.*) http://mattmacintosh.com/ [R=301,L] 
 </ifmodule>
+
+Redirect /images/nagarjuna/TEXTCYCLE/ http://mattmacintosh.com/nagarjuna/text-cycle/
+Redirect /text-cycle/ http://mattmacintosh.com/nagarjuna/text-cycle/
