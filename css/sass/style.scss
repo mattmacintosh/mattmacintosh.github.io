@@ -90,7 +90,13 @@ a:hover, a:active, a:focus {
 	background: #222;
 	color: #fff;
 }
-a:focus img {
+a:hover img,
+a:hover svg {
+	background: #fff;
+}
+a:focus img,
+a:focus svg {
+	background: #fff;
 	outline: 2px solid #000 !important;
 }
 
