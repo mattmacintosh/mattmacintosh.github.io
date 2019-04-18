@@ -6,14 +6,14 @@
 		<div role="complementary" class="section-access">
 			<nav aria-label="abstract-CMYK-menu" role="navigation">
 				<ul class="section">
-					<li><a class="cmyk-one" href="/cmyk/cmyk-one/">Abstract 1</a></li>
-					<li><a class="cmyk-two" href="/cmyk/cmyk-two/">Abstract 2</sa></li>
-					<li><a class="cmyk-three" href="/cmyk/cmyk-three/">Abstract 3</a></li>
-					<li><a class="cmyk-four" href="/cmyk/cmyk-four/">Abstract 4</a></li>
-					<li><a class="cmyk-five" href="/cmyk/cmyk-five/">Abstract 5</a></li>
-					<li><a class="cmyk-six" href="/cmyk/cmyk-six/">Abstract 6</a></li>
-					<li><a class="cmyk-seven" href="/cmyk/cmyk-seven/">Abstract 7</a></li>
-					<li><a class="cmyk-eight" href="/cmyk/cmyk-eight/">Abstract 8</a></li>
+					<li><a {% if page.id contains ' cmyk-1one' %}class="active-piece"{% endif %} href="/cmyk/cmyk-one/">Abstract 1</a></li>
+					<li><a {% if page.id contains ' cmyk-2two' %}class="active-piece"{% endif %} href="/cmyk/cmyk-two/">Abstract 2</a></li>
+					<li><a {% if page.id contains ' cmyk-3thre' %}class="active-piece"{% endif %} href="/cmyk/cmyk-three/">Abstract 3</a></li>
+					<li><a {% if page.id contains ' cmyk-4fou' %}class="active-piece"{% endif %} href="/cmyk/cmyk-four/">Abstract 4</a></li>
+					<li><a {% if page.id contains ' cmyk-5fiv' %}class="active-piece"{% endif %} href="/cmyk/cmyk-five/">Abstract 5</a></li>
+					<li><a {% if page.id contains ' cmyk-6six' %}class="active-piece"{% endif %} href="/cmyk/cmyk-six/">Abstract 6</a></li>
+					<li><a {% if page.id contains ' cmyk-7sev' %}class="active-piece"{% endif %} href="/cmyk/cmyk-seven/">Abstract 7</a></li>
+					<li><a {% if page.id contains ' cmyk-8eig' %}class="active-piece"{% endif %} href="/cmyk/cmyk-eight/">Abstract 8</a></li>
 				</ul>
 			</nav>
 		</div><!-- /.section-access -->

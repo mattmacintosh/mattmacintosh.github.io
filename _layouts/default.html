@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7 no-js {{ page.html-class }}" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="lt-ie9 lt-ie8 no-js {{ page.html-class }}" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="lt-ie9 no-js {{ page.html-class }}" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js {{ page.html-class }}" lang="en-US"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7 no-js {{ page.id }}" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8 no-js {{ page.id }}" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9 no-js {{ page.id }}" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js {{ page.id }}" lang="en-US"> <!--<![endif]-->
 
 <head>
 
 <meta charset="UTF-8" />
 
-<title>{% if page.html-class contains 'home' %}{{ site.title }} &mdash; More Art Than Art{% else %}{{ page.title }} &mdash; {{ site.title }}{% endif %}</title>
+<title>{% if page.id contains 'home' %}{{ site.title }} &mdash; More Art Than Art{% else %}{{ page.title }} &mdash; {{ site.title }}{% endif %}</title>
 
 <link type="text/plain" rel="author" href="/humans.txt"/>
 
@@ -29,7 +29,7 @@
 
 		<header role="banner" class="masthead">
 			<div class="branding">
-{% if page.html-class contains 'home' %}
+{% if page.id contains 'home' %}
 		    	<h1 class="site-title section"><a href="{{ site.url }}" rel="home">Matt Macintosh</a></h1>
 {% else %}
 	    		<div class="site-title section"><a href="{{ site.url }}" rel="home">Matt Macintosh</a></div>
@@ -39,25 +39,25 @@
 			<nav aria-label="main-menu" role="navigation" id="main-access" class="main-access">
 				<ul class="section">
 					<li><a class="new-work" href="http://mattmacintosh.tumblr.com/">New Work</a></li>
-					<li><a class="real-estates" href="/real-estates/real-estates-one/">Real Estates</a></li>
-					<li><a class="subject" href="/subject/subject-one/">Subject</a></li>
-					<li><a class="cmyk" href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
-					<li><a class="nagarjuna" href="/nagarjuna/">Nagarjuna and Difference</a></li>
-					<li><a class="dog" href="/dog-caterpillar/">Dog/Caterpillar</a></li>
-					<li><a class="illuminated" href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
+					<li><a {% if page.id contains 'real-estates ' %}class="active-project"{% endif %} href="/real-estates/real-estates-one/">Real Estates</a></li>
+					<li><a {% if page.id contains 'subject ' %}class="active-project"{% endif %} href="/subject/subject-one/">Subject</a></li>
+					<li><a {% if page.id contains 'cmyk ' %}class="active-project"{% endif %} href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
+					<li><a {% if page.id contains 'nagarjuna ' %}class="active-project"{% endif %} href="/nagarjuna/">Nagarjuna and Difference</a></li>
+					<li><a {% if page.id contains 'dog ' %}class="active-project"{% endif %} href="/dog-caterpillar/">Dog/Caterpillar</a></li>
+					<li><a {% if page.id contains 'illuminated ' %}class="active-project"{% endif %} href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
 				</ul>
 			</nav>
 
 		</header>
 
-{% if page.html-class contains 'real-estates' %}{% include real-estates-piece-meta.html %}
-{% elsif page.html-class contains 'subject' %}{% include subject-piece-meta.html %}
-{% elsif page.html-class contains 'object' %}{% include object-piece-meta.html %}
-{% elsif page.html-class contains 'cmyk' %}{% include cmyk-piece-meta.html %}
-{% elsif page.html-class contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
-{% elsif page.html-class contains 'dog' %}{% include dog-piece-meta.html %}
-{% elsif page.html-class contains 'spectacle' %}{% include spectacle-piece-meta.html %}
-{% elsif page.html-class contains 'illuminated' %}{% include illuminated-piece-meta.html %}
+{% if page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
+{% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
+{% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
+{% elsif page.id contains 'cmyk' %}{% include cmyk-piece-meta.html %}
+{% elsif page.id contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
+{% elsif page.id contains 'dog' %}{% include dog-piece-meta.html %}
+{% elsif page.id contains 'spectacle' %}{% include spectacle-piece-meta.html %}
+{% elsif page.id contains 'illuminated' %}{% include illuminated-piece-meta.html %}
 {% else %}{% endif %}
 
 		<main role="main" id="main-content" class="page-content">
@@ -65,11 +65,11 @@
 			<article role="article" class="page-entry hentry">
 
 				<header class="entry-header">
-{% if page.html-class contains 'home' %}
+{% if page.id contains 'home' %}
 					<h2 class="entry-title section">{{ page.title }}</h2>
-{% elsif page.html-class contains 'contact' %}
+{% elsif page.id contains 'contact' %}
 					<h1 class="entry-title section">{{ page.title }}</h1>
-{% elsif page.html-class contains 'not-found' %}
+{% elsif page.id contains 'not-found' %}
 					<h1 class="entry-title section">{{ page.title }}</h1>
 {% else %}
 					<h1 class="entry-title assistive-text">{{ page.title }}</h1>
@@ -80,27 +80,27 @@
 
 {{ content }}
 	
-{% if page.html-class contains 'real-estates' %}
+{% if page.id contains 'real-estates' %}
 					<script>
 						realEstates();
 					</script>
-{% elsif page.html-class contains 'subject' %}
+{% elsif page.id contains 'subject' %}
 					<script>
 						subject();
 					</script>
-{% elsif page.html-class contains 'cmyk' %}
+{% elsif page.id contains 'cmyk' %}
 					<script>
 						cmyk();
 					</script>
-{% elsif page.html-class contains 'nagarjuna' %}
+{% elsif page.id contains 'nagarjuna' %}
 					<script>
 						nagarjuna();
 					</script>
-{% elsif page.html-class contains 'dog' %}
+{% elsif page.id contains 'dog' %}
 					<script>
 						dog();
 					</script>
-{% elsif page.html-class contains 'illuminated' %}
+{% elsif page.id contains 'illuminated' %}
 					<script>
 						illuminated();
 					</script>

@@ -1,6 +1,6 @@
 		<aside aria-label="piece-specifications" class="piece-meta">
 			<p class="piece-story section">Life sized images derived from archives photos documenting lab and munitions workers circa <abbr>WWII</abbr>. Lab culture, munitions and associated technology removed.</p>
-{% if page.html-class contains 'install' %}
+{% if page.id contains 'install' %}
 {% include installation-specifics.html %}
 {% else %}
 {% include piece-specifics.html %}
@@ -10,19 +10,19 @@
 		<div role="complementary" class="section-access">
 			<nav aria-label="subject-menu" role="navigation">
 				<ul class="section">
-					<li><a class="sub-one" href="/subject/subject-one/">Subject 1</a></li>
-					<li><a class="sub-two" href="/subject/subject-two/">Subject 2</a></li>
-					<li><a class="sub-three" href="/subject/subject-three/">Subject 3</a></li>
-					<li><a class="sub-five" href="/subject/subject-five/">Subject 5</a></li>
-					<li><a class="sub-twelve" href="/subject/subject-twelve/">Subject 12</a></li>
-					<li><a class="sub-fifteen" href="/subject/subject-fifteen/">Subject 15</a></li>
-					<li><a class="sub-sixteen" href="/subject/subject-sixteen/">Subject 16</a></li>
-					<li><a class="sub-seventeen" href="/subject/subject-seventeen/">Subject 17</a></li>
-					<li><a class="sub-eighteen" href="/subject/subject-eighteen/">Subject 18</a></li>
-					<li><a class="sub-twentyone" href="/subject/subject-twentyone/">Subject 21</a></li>
-					<li><a class="sub-ins-four" href="/subject/install-four/">Subject 1, 5, 12 Installation</a></li>
-					<li><a class="sub-ins-three" href="/subject/install-three/">Subject 13, 14 Installation</a></li>
-					<li><a class="sub-ins-five" href="/subject/install-five/">Subject 7, 8, 9 Installation</a></li>
+					<li><a {% if page.id contains ' sub-1one' %}class="active-piece"{% endif %} href="/subject/subject-one/">Subject 1</a></li>
+					<li><a {% if page.id contains ' sub-2two' %}class="active-piece"{% endif %} href="/subject/subject-two/">Subject 2</a></li>
+					<li><a {% if page.id contains ' sub-3thr' %}class="active-piece"{% endif %} href="/subject/subject-three/">Subject 3</a></li>
+					<li><a {% if page.id contains ' sub-5fiv' %}class="active-piece"{% endif %} href="/subject/subject-five/">Subject 5</a></li>
+					<li><a {% if page.id contains ' sub-12tw' %}class="active-piece"{% endif %} href="/subject/subject-twelve/">Subject 12</a></li>
+					<li><a {% if page.id contains ' sub-15fi' %}class="active-piece"{% endif %} href="/subject/subject-fifteen/">Subject 15</a></li>
+					<li><a {% if page.id contains ' sub-16si' %}class="active-piece"{% endif %} href="/subject/subject-sixteen/">Subject 16</a></li>
+					<li><a {% if page.id contains ' sub-17se' %}class="active-piece"{% endif %} href="/subject/subject-seventeen/">Subject 17</a></li>
+					<li><a {% if page.id contains ' sub-18ei' %}class="active-piece"{% endif %} href="/subject/subject-eighteen/">Subject 18</a></li>
+					<li><a {% if page.id contains ' sub-21tw' %}class="active-piece"{% endif %} href="/subject/subject-twentyone/">Subject 21</a></li>
+					<li><a {% if page.id contains ' sub-ins-4fou' %}class="active-piece"{% endif %} href="/subject/install-four/">Subject 1, 5, 12 Installation</a></li>
+					<li><a {% if page.id contains ' sub-ins-3thr' %}class="active-piece"{% endif %} href="/subject/install-three/">Subject 13, 14 Installation</a></li>
+					<li><a {% if page.id contains ' sub-ins-5fiv' %}class="active-piece"{% endif %} href="/subject/install-five/">Subject 7, 8, 9 Installation</a></li>
 				</ul>
 			</nav>
 		</div><!-- /.section-access -->
