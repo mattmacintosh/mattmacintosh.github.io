@@ -4,146 +4,150 @@
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7 no-js {{ page.id }}" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="lt-ie9 lt-ie8 no-js {{ page.id }}" lang="en-US"> <![endif]-->
 <!--[if IE 8]>    <html class="lt-ie9 no-js {{ page.id }}" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js {{ page.id }}" lang="en-US"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js {{ page.id }}" lang="en-US">
+<!--<![endif]-->
 
 <head>
 
-<meta charset="UTF-8" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> 
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
-<title>{% if page.id contains 'home' %}{{ site.title }} &mdash; More Art Than Art{% else %}{{ page.title }} &mdash; {{ site.title }}{% endif %}</title>
+  <title>{% if page.id contains 'home' %}{{ site.title }} &mdash; More Art Than Art{% else %}{{ page.title }} &mdash; {{ site.title }}{% endif %}</title>
 
-<link type="text/plain" rel="author" href="/humans.txt"/>
+  <link type="text/plain" rel="author" href="/humans.txt" />
 
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-<link rel="stylesheet" type="text/css" href="/css/build/style.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="/css/build/style.min.css" media="all" />
 
-<script src="/js/build/global.min.js"></script>
+  <script src="/js/build/global.min.js"></script>
 
 </head>
 
 <body id="page-top">
 
-	<div class="page-wrap hfeed">
+  <div class="page-wrap hfeed">
 
-		<header role="banner" class="masthead">
-			<div class="branding">
-{% if page.id contains 'home' %}
-		    	<h1 class="site-title section"><a href="{{ site.url }}" rel="home">Matt Macintosh</a></h1>
-{% else %}
-	    		<div class="site-title section"><a href="{{ site.url }}" rel="home">Matt Macintosh</a></div>
-{% endif %}
-			</div><!-- /.branding -->
+    <header role="banner" class="masthead">
+      <div class="branding">
+        {% if page.id contains 'home' %}
+        <h1 class="site-title section"><a href="/about/" rel="home">Matt Macintosh</a></h1>
+        {% else %}
+        <div class="site-title section"><a href="/about/" rel="home">Matt Macintosh</a></div>
+        {% endif %}
+      </div><!-- /.branding -->
 
-			<nav aria-label="main-menu" role="navigation" id="main-access" class="main-access">
-				<ul class="section">
-					<li><a class="new-work" href="http://mattmacintosh.tumblr.com/">New Work</a></li>
-					<li><a {% if page.id contains 'real-estates ' %}class="active-project"{% endif %} href="/real-estates/real-estates-one/">Real Estates</a></li>
-					<li><a {% if page.id contains 'subject ' %}class="active-project"{% endif %} href="/subject/subject-one/">Subject</a></li>
-					<li><a {% if page.id contains 'cmyk ' %}class="active-project"{% endif %} href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
-					<li><a {% if page.id contains 'nagarjuna ' %}class="active-project"{% endif %} href="/nagarjuna/">Nagarjuna and Difference</a></li>
-					<li><a {% if page.id contains 'dog ' %}class="active-project"{% endif %} href="/dog-caterpillar/">Dog/Caterpillar</a></li>
-					<li><a {% if page.id contains 'illuminated ' %}class="active-project"{% endif %} href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
-				</ul>
-			</nav>
+      <nav aria-label="main-menu" role="navigation" id="main-access" class="main-access">
+        <ul class="section">
+          <li><a class="new-work" href="http://mattmacintosh.tumblr.com/">New Work</a></li>
+          <li><a {% if page.id contains 'real-estates ' %}class="active-project" {% endif %} href="/real-estates/real-estates-one/">Real Estates</a></li>
+          <li><a {% if page.id contains 'subject ' %}class="active-project" {% endif %} href="/subject/subject-one/">Subject</a></li>
+          <li><a {% if page.id contains 'cmyk ' %}class="active-project" {% endif %} href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
+          <li><a {% if page.id contains 'nagarjuna ' %}class="active-project" {% endif %} href="/nagarjuna/">Nagarjuna and Difference</a></li>
+          <li><a {% if page.id contains 'dog ' %}class="active-project" {% endif %} href="/dog-caterpillar/">Dog/Caterpillar</a></li>
+          <li><a {% if page.id contains 'illuminated ' %}class="active-project" {% endif %} href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
+        </ul>
+      </nav>
 
-		</header>
+    </header>
 
-{% if page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
-{% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
-{% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
-{% elsif page.id contains 'cmyk' %}{% include cmyk-piece-meta.html %}
-{% elsif page.id contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
-{% elsif page.id contains 'dog' %}{% include dog-piece-meta.html %}
-{% elsif page.id contains 'spectacle' %}{% include spectacle-piece-meta.html %}
-{% elsif page.id contains 'illuminated' %}{% include illuminated-piece-meta.html %}
-{% else %}{% endif %}
+    {% if page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
+    {% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
+    {% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
+    {% elsif page.id contains 'cmyk' %}{% include cmyk-piece-meta.html %}
+    {% elsif page.id contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
+    {% elsif page.id contains 'dog' %}{% include dog-piece-meta.html %}
+    {% elsif page.id contains 'spectacle' %}{% include spectacle-piece-meta.html %}
+    {% elsif page.id contains 'illuminated' %}{% include illuminated-piece-meta.html %}
+    {% else %}{% endif %}
 
-		<main role="main" id="main-content" class="page-content">
+    <main role="main" id="main-content" class="page-content">
 
-			<article role="article" class="page-entry hentry">
+      <article role="article" class="page-entry hentry">
 
-				<header class="entry-header">
-{% if page.id contains 'home' %}
-					<h2 class="entry-title section">{{ page.title }}</h2>
-{% elsif page.id contains 'contact' %}
-					<h1 class="entry-title section">{{ page.title }}</h1>
-{% elsif page.id contains 'not-found' %}
-					<h1 class="entry-title section">{{ page.title }}</h1>
-{% else %}
-					<h1 class="entry-title assistive-text">{{ page.title }}</h1>
-{% endif %}
-				</header><!-- /.entry-header -->
+        <header class="entry-header">
+          {% if page.id contains 'home' %}
+          <h2 class="entry-title section">{{ page.title }}</h2>
+          {% elsif page.id contains 'contact' %}
+          <h1 class="entry-title section">{{ page.title }}</h1>
+          {% elsif page.id contains 'not-found' %}
+          <h1 class="entry-title section">{{ page.title }}</h1>
+          {% else %}
+          <h1 class="entry-title assistive-text">{{ page.title }}</h1>
+          {% endif %}
+        </header><!-- /.entry-header -->
 
-				<div class="entry-content section">
+        <div class="entry-content section">
 
-{{ content }}
-	
-{% if page.id contains 'real-estates' %}
-					<script>
-						realEstates();
-					</script>
-{% elsif page.id contains 'subject' %}
-					<script>
-						subject();
-					</script>
-{% elsif page.id contains 'cmyk' %}
-					<script>
-						cmyk();
-					</script>
-{% elsif page.id contains 'nagarjuna' %}
-					<script>
-						nagarjuna();
-					</script>
-{% elsif page.id contains 'dog' %}
-					<script>
-						dog();
-					</script>
-{% elsif page.id contains 'illuminated' %}
-					<script>
-						illuminated();
-					</script>
-{% endif %}
+          {{ content }}
 
-				</div><!-- /.entry-content -->
+          {% if page.id contains 'real-estates' %}
+          <script>
+            realEstates();
+          </script>
+          {% elsif page.id contains 'subject' %}
+          <script>
+            subject();
+          </script>
+          {% elsif page.id contains 'cmyk' %}
+          <script>
+            cmyk();
+          </script>
+          {% elsif page.id contains 'nagarjuna' %}
+          <script>
+            nagarjuna();
+          </script>
+          {% elsif page.id contains 'dog' %}
+          <script>
+            dog();
+          </script>
+          {% elsif page.id contains 'illuminated' %}
+          <script>
+            illuminated();
+          </script>
+          {% endif %}
 
-			</article>
+        </div><!-- /.entry-content -->
 
-		</main>
+      </article>
 
-		<footer role="contentinfo" class="colophon">
+    </main>
 
-			<nav aria-label="site-information-menu" class="site-info section" role="navigation">
-				<ul class="nav">
-					<li class="first">2009-{{ 'now' | date: "%y" }} Matt Macintosh</li>
-					<li><a class="contact highlight" href="/contact/">Contact</a></li>
-					<li class="page-top"><a href="#page-top">Top</a></li>
-				</ul>
-			</nav>
+    <footer role="contentinfo" class="colophon">
 
-		</footer>
+      <nav aria-label="site-information-menu" class="site-info section" role="navigation">
+        <ul class="nav">
+          <li class="first">2009-{{ 'now' | date: "%y" }} Matt Macintosh</li>
+          <li><a class="contact highlight" href="/contact/">Contact</a></li>
+          <li class="page-top"><a href="#page-top">Top</a></li>
+        </ul>
+      </nav>
 
-	</div><!-- /.page-wrap -->
-	<script src="/js/libs/svg-injector.min.js"></script>
-	<script>
-	  // Elements to inject
-	  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    </footer>
 
-	  // Do the injection
-	  SVGInjector(mySVGsToInject);
-	</script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </div><!-- /.page-wrap -->
+  <script src="/js/libs/svg-injector.min.js"></script>
+  <script>
+    // Elements to inject
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
 
-	  ga('create', 'UA-29418519-1', 'mattmacintosh.com');
-	  ga('send', 'pageview');
+    // Do the injection
+    SVGInjector(mySVGsToInject);
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-	</script>
+    ga('create', 'UA-29418519-1', 'mattmacintosh.com');
+    ga('send', 'pageview');
+
+  </script>
 
 </body>
 
