@@ -66,17 +66,21 @@ iframe {
 /* global link rule base */
 a, a:visited {
 	color:#222;
-	outline:0;
-	text-decoration:none;
 }
-a:hover, a:active, a:focus {
-	background: #222 !important;
-	color: #fff !important;
+a:hover, a:active {
+  outline: none !important;
 }
-.active-project,
-.active-piece {
+a:focus {
+	background: #fff !important;
+	color: #222 !important;
+  outline: 2px solid #000;
+  text-decoration: none;
+}
+[aria-current="page"],
+.active-project {
 	background: #222;
 	color: #fff !important;
+  text-decoration: none;
 }
 a:hover img,
 a:hover svg {
@@ -86,6 +90,7 @@ a:focus img,
 a:focus svg {
 	background: #fff;
 	outline: 2px solid #000 !important;
+  outline-offset: 2px;
 }
 
 /* changing the selected text colour and background */
