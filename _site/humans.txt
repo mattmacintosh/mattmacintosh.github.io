@@ -1,0 +1,10 @@
+/* SITE */
+	Site name:Matt Macintosh
+	Site URL:http://mattmacintosh.com/
+	Developer:Johnny Taylor
+	Twitter:@abledaccess
+	Contact:http://ajohnnytaylor.org/
+	Last update:2015/02/19
+	Language:English
+	Components:Modernizr, jQuery, Backstretch, Sass, Grunt, Jekyll, Github, Github Pages
+	Built with:HTML, CSS, Javascript, TextMate, xScope, Photoshop
