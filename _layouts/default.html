@@ -41,19 +41,19 @@
 
       <nav aria-label="main-menu" role="navigation" id="main-access" class="main-access">
         <ul class="section">
-          <li><a class="new-work" href="http://mattmacintosh.tumblr.com/">New Work</a></li>
+          <li><a {% if page.id contains 'paintings ' %}class="active-project" {% endif %} href="/paintings/fifteen/">Paintings</a></li>
           <li><a {% if page.id contains 'real-estates ' %}class="active-project" {% endif %} href="/real-estates/real-estates-one/">Real Estates</a></li>
           <li><a {% if page.id contains 'subject ' %}class="active-project" {% endif %} href="/subject/subject-one/">Subject</a></li>
           <li><a {% if page.id contains 'cmyk ' %}class="active-project" {% endif %} href="/cmyk/cmyk-one">MacOS, CMYK</a></li>
           <li><a {% if page.id contains 'nagarjuna ' %}aria-current="page" {% endif %} href="/nagarjuna/">Nagarjuna and Difference</a></li>
-          <li><a {% if page.id contains 'dog ' %}class="active-project" {% endif %} href="/dog-caterpillar/">Dog/Caterpillar</a></li>
           <li><a {% if page.id contains 'illuminated ' %}class="active-project" {% endif %} href="/im/al-qur-an/">Illuminated Manuscripts</a></li>
         </ul>
       </nav>
 
     </header>
 
-    {% if page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
+    {% if page.id contains 'paintings' %}{% include paintings-meta.html %}
+    {% elsif page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
     {% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
     {% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
     {% elsif page.id contains 'cmyk' %}{% include cmyk-piece-meta.html %}
