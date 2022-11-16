@@ -17,6 +17,12 @@ function homePage() {
 	var backStretchImageWidth = $(".backstretch img").attr("width", "3");
 	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
 }
+function paintings() {
+	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/WhiteWall_WP.jpg"]);
+	var backStretchImageHeight = $(".backstretch img").attr("height", "1");
+	var backStretchImageWidth = $(".backstretch img").attr("width", "1");
+	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
+}
 function realEstates() {
 	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/Real-Estates_WP.jpg"]);
 	var backStretchImageHeight = $(".backstretch img").attr("height", "1");
