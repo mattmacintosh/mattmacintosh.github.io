@@ -26,16 +26,16 @@
 
 </head>
 
-<body id="page-top">
+<body>
 
   <div class="page-wrap hfeed">
 
     <header role="banner" class="masthead">
       <div class="branding">
         {% if page.id contains 'home' %}
-        <h1 class="site-title section"><a href="/about/" rel="home">Matt Macintosh</a></h1>
+        <h1 class="site-title section"><a href="/" rel="home">Matt Macintosh</a></h1>
         {% else %}
-        <div class="site-title section"><a href="/about/" rel="home">Matt Macintosh</a></div>
+        <div class="site-title section"><a href="/" rel="home">Matt Macintosh</a></div>
         {% endif %}
       </div><!-- /.branding -->
 
@@ -52,38 +52,13 @@
 
     </header>
 
-    {% if page.id contains 'paintings' %}{% include paintings-meta.html %}
-    {% elsif page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
-    {% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
-    {% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
-    {% elsif page.id contains 'cmyk' %}{% include cmyk-piece-meta.html %}
-    {% elsif page.id contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
-    {% elsif page.id contains 'dog' %}{% include dog-piece-meta.html %}
-    {% elsif page.id contains 'spectacle' %}{% include spectacle-piece-meta.html %}
-    {% elsif page.id contains 'illuminated' %}{% include illuminated-piece-meta.html %}
-    {% else %}{% endif %}
-
-    <main role="main" id="main-content" class="page-content">
-
-      <article role="article" class="page-entry hentry">
-
-        <header class="entry-header">
-          {% if page.id contains 'home' %}
-          <h2 class="entry-title section">{{ page.title }}</h2>
-          {% elsif page.id contains 'contact' %}
-          <h1 class="entry-title section">{{ page.title }}</h1>
-          {% elsif page.id contains 'not-found' %}
-          <h1 class="entry-title section">{{ page.title }}</h1>
-          {% else %}
-          <h1 class="entry-title assistive-text">{{ page.title }}</h1>
-          {% endif %}
-        </header><!-- /.entry-header -->
-
-        <div class="entry-content section">
-
           {{ content }}
 
-          {% if page.id contains 'real-estates' %}
+          {% if page.id contains 'front-page' %}
+          <script>
+            homePage();
+          </script>
+          {% elsif page.id contains 'real-estates' %}
           <script>
             realEstates();
           </script>
@@ -121,7 +96,6 @@
         <ul class="nav">
           <li class="first">2009-{{ 'now' | date: "%y" }} Matt Macintosh</li>
           <li><a class="contact highlight" href="/contact/">Contact</a></li>
-          <li class="page-top"><a href="#page-top">Top</a></li>
         </ul>
       </nav>
 

@@ -105,13 +105,11 @@ a:focus svg {
 
 /* layout rules
    --------------------------------------------------------------------------- */
-html,
-body,
-.page-wrap {
-	height: 100%;
-}
 body {
 	width: 87em;
+}
+.home body {
+	width: auto;
 }
 .page-wrap {
 	padding: 0 5.4em;
@@ -163,6 +161,10 @@ body {
 .colophon  {
 	clear: both;
 	padding-bottom: 12em;
+}
+.home .colophon  {
+	clear: both;
+	padding: 24em 0 2em;
 }
 
 .nav {

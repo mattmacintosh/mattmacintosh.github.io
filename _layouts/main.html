@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% if page.id contains 'paintings' %}{% include paintings-meta.html %}
+{% elsif page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
+{% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
+{% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
+{% elsif page.id contains 'cmyk' %}{% include cmyk-piece-meta.html %}
+{% elsif page.id contains 'nagarjuna' %}{% include nagarjuna-piece-meta.html %}
+{% elsif page.id contains 'dog' %}{% include dog-piece-meta.html %}
+{% elsif page.id contains 'spectacle' %}{% include spectacle-piece-meta.html %}
+{% elsif page.id contains 'illuminated' %}{% include illuminated-piece-meta.html %}
+{% else %}{% endif %}
+
+<main role="main" id="main-content" class="page-content">
+
+  <article role="article" class="page-entry hentry">
+
+    <header class="entry-header">
+      {% if page.id contains 'home' %}
+      <h2 class="entry-title section">{{ page.title }}</h2>
+      {% elsif page.id contains 'contact' %}
+      <h1 class="entry-title section">{{ page.title }}</h1>
+      {% elsif page.id contains 'not-found' %}
+      <h1 class="entry-title section">{{ page.title }}</h1>
+      {% else %}
+      <h1 class="entry-title assistive-text">{{ page.title }}</h1>
+      {% endif %}
+    </header><!-- /.entry-header -->
+
+    <div class="entry-content section">
+
+      {{ content }}

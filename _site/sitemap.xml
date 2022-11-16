@@ -52,6 +52,9 @@
 <loc>http://localhost:4001/im/hsin-hsin-ming/</loc>
 </url>
 <url>
+<loc>http://localhost:4001/</loc>
+</url>
+<url>
 <loc>http://localhost:4001/subject/install-five/</loc>
 </url>
 <url>
@@ -215,10 +218,6 @@
 </url>
 <url>
 <loc>http://localhost:4001/im/upanishads/</loc>
-</url>
-<url>
-<loc>http://localhost:4001/</loc>
-<lastmod>2022-11-14T16:37:02-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4001/nagarjuna/text-cycle/</loc>

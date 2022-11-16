@@ -1,6 +1,7 @@
 window.onload = function() {
 	setTimeout(function() {
 		// preload wallpaper
+		new Image().src = "http://mattmacintosh.com/images/wallpaper/Penicillin_WP.jpg";
 		new Image().src = "http://mattmacintosh.com/images/wallpaper/Real-Estates_WP.jpg";
 		new Image().src = "http://mattmacintosh.com/images/wallpaper/Subject_WP.jpg";
 		new Image().src = "http://mattmacintosh.com/images/wallpaper/Mac-OS-CMYK_Davos.WP.jpg";
@@ -10,6 +11,12 @@ window.onload = function() {
 	}, 1000);
 };
 
+function homePage() {
+	var backStretchImage = $.backstretch(["/images/wallpaper/Penicillin_WP.jpg"]);
+	var backStretchImageHeight = $(".backstretch img").attr("height", "2");
+	var backStretchImageWidth = $(".backstretch img").attr("width", "3");
+	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
+}
 function realEstates() {
 	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/Real-Estates_WP.jpg"]);
 	var backStretchImageHeight = $(".backstretch img").attr("height", "1");
@@ -18,8 +25,8 @@ function realEstates() {
 }
 function subject() {
 	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/Subject_WP.jpg"]);
-	var backStretchImageHeight = $(".backstretch img").attr("height", "1");
-	var backStretchImageWidth = $(".backstretch img").attr("width", "1");
+	var backStretchImageHeight = $(".backstretch img").attr("height", "2");
+	var backStretchImageWidth = $(".backstretch img").attr("width", "3");
 	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
 }
 function cmyk() {
