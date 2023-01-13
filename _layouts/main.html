@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% if page.id contains 'paintings' %}{% include paintings-meta.html %}
+{% elsif page.id contains 'type-token' %}{% include type-token-meta.html %}
 {% elsif page.id contains 'real-estates' %}{% include real-estates-piece-meta.html %}
 {% elsif page.id contains 'subject' %}{% include subject-piece-meta.html %}
 {% elsif page.id contains 'object' %}{% include object-piece-meta.html %}
