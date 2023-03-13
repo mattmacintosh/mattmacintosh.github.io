@@ -54,7 +54,7 @@ function dog() {
 	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
 }
 function illuminated() {
-	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/Illuminated-Manuscripts_WP.jpg"]);
+	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/IM_Pattern_WP.jpg"]);
 	var backStretchImageHeight = $(".backstretch img").attr("height", "1");
 	var backStretchImageWidth = $(".backstretch img").attr("width", "1");
 	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
