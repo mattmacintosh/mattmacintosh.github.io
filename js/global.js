@@ -18,7 +18,7 @@ function homePage() {
 	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
 }
 function paintings() {
-	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/WhiteWall_WP.jpg"]);
+	var backStretchImage = $.backstretch(["http://mattmacintosh.com/images/wallpaper/Paintings_WP.jpg"]);
 	var backStretchImageHeight = $(".backstretch img").attr("height", "1");
 	var backStretchImageWidth = $(".backstretch img").attr("width", "1");
 	var backStretchImageARIAHidden = $(".backstretch img").attr("aria-hidden", "true");
