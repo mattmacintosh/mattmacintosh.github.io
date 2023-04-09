@@ -17,7 +17,7 @@ title: Matt Macintosh
 email: matt@mattmacintosh.com
 description: "Matt Macintosh is a Kamloops–based artist working with found images and objects, painting, video and sound. His work explores the effects of erasure, systematization and repetition on cultural canon materials as they relate to fundamental human experiences like the longing for emancipation. Currently Curator at the Kamloops Museum and Archives, he has exhibited in Canada and the US."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mattmacintosh.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mattmacintosh.com" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: falsevoid
 
 # Build settings

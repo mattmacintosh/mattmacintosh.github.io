@@ -1,4 +1,4 @@
-Sitemap: http://mattmacintosh.com/sitemap.xml
+Sitemap: https://mattmacintosh.com/sitemap.xml
 
 User-agent: *
 Disallow:

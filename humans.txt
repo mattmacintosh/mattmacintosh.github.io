@@ -1,6 +1,6 @@
 /* SITE */
 	Site name:Matt Macintosh
-	Site URL:http://mattmacintosh.com/
+	Site URL:https://mattmacintosh.com/
 	Developer:Johnny Taylor
 	Twitter:@abledaccess
 	Contact:http://ajohnnytaylor.org/
