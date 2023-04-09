@@ -31,7 +31,7 @@
 
   <div class="page-wrap hfeed">
 
-    <header role="banner" class="masthead">
+    <header class="masthead">
       <div class="branding">
         {% if page.id contains 'home' %}
         <h1 class="site-title section"><a href="/" rel="home">Matt Macintosh</a></h1>
@@ -40,7 +40,7 @@
         {% endif %}
       </div><!-- /.branding -->
 
-      <nav aria-label="main-menu" role="navigation" id="main-access" class="main-access">
+      <nav aria-label="main-menu" id="main-access" class="main-access">
         <ul class="section">
           <li><a {% if page.id contains 'paintings ' %}class="active-project" {% endif %} href="/paintings/fifteen/">Paintings</a></li>
           <li><a {% if page.id contains 'type-token ' %}class="active-project" {% endif %} href="/tt/type-token-one/">Type and Token</a></li>
@@ -90,9 +90,9 @@
 
     </main>
 
-    <footer role="contentinfo" class="colophon">
+    <footer class="colophon">
 
-      <nav aria-label="site-information-menu" class="site-info section" role="navigation">
+      <nav aria-label="site-information-menu" class="site-info section">
         <ul class="nav">
           <li class="first">{{ 'now' | date: "%Y" }} Matt Macintosh</li>
           <li><a class="contact highlight" href="/contact/">Contact</a></li>
