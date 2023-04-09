@@ -45,6 +45,7 @@ cite {
 }
 img {
 	border:none;
+  display: block;
 	font-style:italic;
 }
 input,
@@ -74,6 +75,7 @@ a:focus {
 	background: #fff !important;
 	color: #222 !important;
   outline: 2px solid #000;
+  outline-offset: 2px;
   text-decoration: none;
 }
 [aria-current="page"],
